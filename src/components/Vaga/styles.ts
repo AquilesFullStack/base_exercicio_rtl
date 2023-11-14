@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 export const Vaga = styled.li`
-  border: 1px solid var(--cor-principal);
-  background-color: var(--cor-secundaria);
-  color: var(--cor-principal);
+  border: 1px solid ;
+  background-color: #f9f5e7;
+  color: #a7727d;
   padding: 16px;
   transition: all ease 0.3s;
   border-radius: 8px;
+  list-style:none;
 }
 `
 export const VagaTitulo = styled.h3`
@@ -15,9 +16,9 @@ export const VagaTitulo = styled.h3`
 `
 
 export const VagaLink = styled.a`
-  border-color: var(--cor-secundaria);
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
+  border-color: #f9f5e7;
+  background-color: #a7727d;
+  color: #f9f5e7;
   display: inline-block;
   padding: 8px 16px;
   text-decoration: none;
